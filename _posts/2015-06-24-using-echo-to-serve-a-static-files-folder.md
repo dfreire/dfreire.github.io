@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using echo to serve a static files folder
+title: Using Echo to serve a static files folder
 ---
 
 <p class="meta">24 Jun 2015</p>
