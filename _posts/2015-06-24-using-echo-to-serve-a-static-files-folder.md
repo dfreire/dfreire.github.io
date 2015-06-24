@@ -3,7 +3,7 @@ layout: post
 title: Using echo to serve a static files folder
 ---
 
-<p class="meta">26 Jun 2015</p>
+<p class="meta">24 Jun 2015</p>
 
 {{ page.title }}
 ================
