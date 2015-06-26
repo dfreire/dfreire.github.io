@@ -3,8 +3,7 @@ layout: post
 title: Using Direnv to setup a Go project based development environment
 ---
 
-<p class="meta">24 Jun 2015</p>
-
+<p class="meta">{{ page.date | date: "%-d %b %Y" }}</p>
 {{ page.title }}
 ================
 
