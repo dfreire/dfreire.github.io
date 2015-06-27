@@ -24,6 +24,3 @@ When your projects dependend on semantically versioned packages, you need to spe
 - ```"lodash": "~3.9.3"``` or ```"lodash": "3.9.x"```, to accept all patch releases after 3.9.3
 - ```"lodash": "^3.9.3"``` or ```"lodash": "3.x"```, to accept all minor releases after 3.9.3
 - ```"lodash": "*"``` or ```"lodash": "x"```, to accept all versions
-
-{% highlight json %}
-{% endhighlight %}
