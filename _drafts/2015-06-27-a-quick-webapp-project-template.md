@@ -7,7 +7,12 @@ title: A quick webapp project template
 {{ page.title }}
 ================
 
-Let's create a minimal working webapp project template, using Bootstrap, React, React Router, NPM and Webpack.
+Let's create a minimal working webapp project template,
+using [Bootstrap](http://getbootstrap.com/),
+[React](http://facebook.github.io/react/),
+[React Router](http://rackt.github.io/react-router/),
+[NPM](https://www.npmjs.com/),
+and [Webpack](http://webpack.github.io/).
 
 The directory layout looks like this:
 
@@ -228,12 +233,12 @@ A common way to do this is to run:
 cd <project_dir>
 python -m SimpleHTTPServer 3000
 ```
-
 and then visit http:/localhost:3000/
 
 
 As an alternative, you can create your own static web server using Go, as explained
 [here](http://dfreire.github.io/2015/06/24/using-echo-to-serve-a-static-files-folder.html).
+
 
 You can find and use the source code for this template
 [here](https://github.com/dfreire/quick-webapp-template).
