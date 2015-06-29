@@ -44,25 +44,12 @@ export default React.createClass({
 });
 {% endhighlight %}
 
-{% highlight javascript %}
-import React from "react/addons";
-import Router from "react-router";
-
-export default React.createClass({
-  mixins: [Router.State],
-
-  render: function() {
-    return (<h1>Home</h1>);
-  }
-});
-{% endhighlight %}
-
 
 ```js/app.jx``` is the entry point of the application.
 It renders the website structure and configures the routes.
 The active page will be rendered in the place of the ```<RouteHandler/>``` component.
 
-{% highlight jsx %}
+{% highlight javascript %}
 import React from 'react/addons';
 import Router from 'react-router';
 import {Route, Redirect, RouteHandler, Link} from 'react-router';
@@ -168,8 +155,8 @@ module.exports = config;
 {% endhighlight %}
 
 
-In ```package.json``` we can declare our production dependencies (React and React Router),
-and our development dependencies (Webpack's loaders)
+In ```package.json``` we declare our production dependencies (React and React Router)
+and our development dependencies (Webpack's loaders).
 
 {% highlight json %}
 {
@@ -215,9 +202,8 @@ Bootstrap depends on jquery, so we need to load it too.
 </html>
 {% endhighlight %}
 
-If you remember ```js/app.jsx```, you'll recognize that our app will be rendered inside the ```<div id="app">``` element.
-
-Ok, everything is ready.
+If you remember ```js/app.jsx```, you'll recognize that our app will be rendered inside the
+```<div id="app">``` element.
 
 Assuming you have NPM and Webpack installed in your system, you can run:
 
@@ -229,11 +215,12 @@ Assuming you have NPM and Webpack installed in your system, you can run:
 To see the resulting website running, you should serve the project directory in a webserver.
 
 A common way to do this is to run:
-```
+
+{% highlight bash %}
 cd <project_dir>
 python -m SimpleHTTPServer 3000
-```
-and then visit http:/localhost:3000/
+{% endhighlight %}
+and then visit [http://localhost:3000/](http://localhost:3000/)
 
 
 As an alternative, you can create your own static web server using Go, as explained
