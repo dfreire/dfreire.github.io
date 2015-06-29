@@ -31,7 +31,7 @@ All the code is pretty much self explanatory, but let's briefly describe each fi
 ```js/about.jsx``` and ```js/home.jsx``` are two React (Router) pages.
 In this trivial example, each of them renders a heading:
 
-{% highlight jsx %}
+{% highlight javascript %}
 import React from "react/addons";
 import Router from "react-router";
 
